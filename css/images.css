@@ -1,0 +1,108 @@
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.n{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    margin-top: -70px;
+    
+    
+}
+.n li{
+    color: rgb(252, 255, 253);
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-color: #000000;
+    background-image: url( "../mages/glavni.png");
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+  .bta{ font-size: 1rem;
+   width: 180px;
+  height: 32px;
+    background-color: #F57520;
+    margin-top: 40px;
+  }
+input{
+    all: unset;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    box-shadow: 0px 2px 2px 2px ;
+    transition: border .3s ease-in-out;
+
+}
+input:focus{
+    border-color: blueviolet;
+}
+.mm{
+    font-size: 110px;
+    color: rgb(255, 255, 255);
+}
+.m{
+    font-size: 18px;
+    color: aliceblue;
+  
+}
+#velik{
+    background-image: url( "../mages/velik.png");
+    height: 533px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.a{
+    width: 300px;
+    height: 220px;
+    margin-left: 35px;
+     /* all: unset; */
+    padding: 2px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    box-shadow: 10px 10px 9px 2px ;
+    /* transition: border .3s ease-in-out; */
+
+}
+.cardlar{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.vv{
+    font-size: 64px;
+    padding-bottom: 80px;
+    color: #101010;
+}
+.nn{
+    list-style: none;
+    color: #F57520;
+}
+.nnn{
+    display: flex;
+    padding-top: 48px;
+    font-size: 14px;
+}
+.nnnn{
+    list-style: none;
+    color: #FFFFFF;
+}
+#save{
+     background-image: url("../mages/velik2.png");
+     background-size: cover;
+    background-position: center;
+}
+.vvv{
+    font-size: 64px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #FFFFFF;
+}
